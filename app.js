@@ -4,12 +4,13 @@ const app = Vue.createApp({
 		return {
 			my_var: 'The Final Empire',
 			another_var: 'BOI',
-			my_number: 68
+			my_number: 68,
+			shouldShow: true
 		}
 	},
 	methods: {
-		changeTitle(){
-			this.my_var = 'The Final Empire'
+		changeTitle(newTitle){
+			this.my_var = newTitle
 		}
 	}
 })
