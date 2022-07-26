@@ -6,6 +6,11 @@ const app = Vue.createApp({
 			another_var: 'BOI',
 			my_number: 68
 		}
+	},
+	methods: {
+		changeTitle(){
+			this.my_var = 'The Final Empire'
+		}
 	}
 })
 
